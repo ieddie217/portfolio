@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Eddie",
   links: [
     {
       title: "About",
@@ -19,18 +19,18 @@ export const navigation = {
       link: "#contact",
     },
     {
-      title: "Links",
-      link: "/links",
+      title: "Work",
+      link: "#work",
     },
     {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      title: "Links",
+      link: "/links",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Eddie",
+  description: "A Software Engineer creating apps and websites.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://drive.google.com/file/d/1MpGsmLnwA4HCORCPqrtqG-KAgsI9vmxH/view",
       isPrimary: false,
     },
   ],
@@ -49,9 +49,8 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I graduated from the University of Toronto, St. George, in 2020 with a double major in Computer Science and Mathematics. After graduation, I returned to Taiwan to begin my career, initially working in hardware within the premier IC industry. Later, I transitioned to a role at the World Trade Center in Taipei, developing apps to maximize efficiency.",
+    "In the ever-evolving tech industry, staying adaptable and continuously learning new technologies is crucial to growth and success. I’m passionate about embracing change and constantly expanding my skills to stay ahead in this dynamic field."
   ],
 }
 
@@ -59,8 +58,8 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "App Development",
+      description: "I create internal use app solutions utilizing Power Platform",
       icons: null,
     },
     {
@@ -75,40 +74,22 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "NMO",
+      description: "A basic introduction to different numerical methods used to optimize problems.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
-      ]
-    },
-    {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
+          link: "https://github.com/ieddie217/NMO",
+        }
       ]
     },
     {
       title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      description: "A portfolio website to showcase my work, projects and skills as a software developer.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/ieddie217/portfolio",
         },
       ]
     },
@@ -117,53 +98,48 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at, ieddie217@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:ieddie217@gmail.com",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+    }
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Eddie Wang | Software Engineer | Power Platform | Reactjs developer",
+  description: "I create internal use app solutions utilizing Power Platform. I graduated from the University of Toronto (UofT) in 2020 with a double major in Computer Science and Mathematics.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@eddiewang",
+  description: "Eddie Wang | Software Engineer | Power Platform | Reactjs developer",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
+      title: "Website",
+      link: "https://ieddie217.github.io",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "GitHub",
+      link: "https://github.com/ieddie217",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/eddie-yh-wang/",
     },
     {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      title: "Insta",
+      link: "https://www.instagram.com/eddiewaaang/",
     },
     {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      title: "Facebook",
+      link: "https://www.facebook.com/eddiewaaaanggg",
     },
   ]
 }
